@@ -1,0 +1,11 @@
+.large-button {
+  width: 4rem;
+  height: 2rem;
+  background: lightgray;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.large-button:hover {
+  background: #ccc;
+}
