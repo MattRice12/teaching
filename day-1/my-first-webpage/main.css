@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: #40A3F9;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.nav-list {
+  background: black;
+  margin: 0;
+  color: white;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.nav-item {
+  display: inline;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main {
+  height: 70vh;
+}
+
+.main-section {
+  margin: 0.5rem;
+  width: 65%;
+  float: left;
+}
+
+.emphasis {
+  font-size: 14pt;
+  border-left: 2px solid #40A3F9;
+  padding-left: 1rem;
+}
+
+.article-profile {
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+
+.profile-image {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+footer {
+  text-align: center;
+  color: #ccc;
+}

@@ -1,17 +1,7 @@
 # INSTALL PARTY
 
-1. INSTALL SLACK
-2. USE CHROME (or firefox)
-3. Install atom
-4. create coding directory
-5. Install node.js
-    1. https://nodejs.org/en/download/
-6. Install surge.sh
-    1. npm install —global surge
-7. Install git?
-    1. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-
+1. Install git?
+  - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 _________________
 # Terminal command (Mac)
 
@@ -88,7 +78,7 @@ __________________
 div
 h1, h2, h3, h4, h5, h6
 p
-ol, ul
+ol, ul, li
 
 header
 nav
@@ -150,3 +140,8 @@ text-align
 px
 rem
 em
+
+
+_________________
+
+http://wonderful-person.surge.sh/
