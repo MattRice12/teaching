@@ -1,0 +1,22 @@
+.container {
+  h2 {
+    text-decoration: underline;
+  }
+  &> div {
+    margin: 1rem;
+  }
+}
+
+.title-and-hint {
+  display: flex;
+  align-items: center;
+  h3 {
+    margin-right: 2rem;
+  }
+  .hint {
+    padding: 0.3rem 0.8rem;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}

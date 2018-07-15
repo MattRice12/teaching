@@ -1,0 +1,17 @@
+.container h2 {
+  text-decoration: underline; }
+.container > div {
+  margin: 1rem; }
+
+.title-and-hint {
+  display: flex;
+  align-items: center; }
+  .title-and-hint h3 {
+    margin-right: 2rem; }
+  .title-and-hint .hint {
+    padding: 0.3rem 0.8rem;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
