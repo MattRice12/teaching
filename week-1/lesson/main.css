@@ -1,0 +1,28 @@
+.slayer-img {
+  width: 300px;
+}
+
+.underline-header {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  user-select: none;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: black;
+}
+
+.underline-header:active {
+  color: lightblue;
+}
+
+.underline-header:hover {
+  background: lightgray;
+}
+
+.fancy-paragraph {
+  color: red;
+  font-size: 16pt;
+  border: 3px solid black;
+  text-shadow: 4px 4px 3px blue;
+}

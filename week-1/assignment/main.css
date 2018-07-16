@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #2B96A6;
+  height: 6rem;
+}
+
+.header-text {
+  margin: 0;
+  padding: 2rem;
+  color: white;
+  float: left;
+}
+
+.header-image {
+  width: 4rem;
+  height: auto;
+  float: right;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.nav-list {
+  margin: 0;
+  background: black;
+  padding: 1rem;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 4rem;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid white;
+}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  margin: 1rem;
+  height: 40rem;;
+}
+
+.main-body {
+  width: 60%;
+  float: left;
+}
+
+.main-aside {
+  width: 35%;
+  display: inline;
+  float: right;
+}
+
+.highlight-text {
+  border-left: 2px solid #2B96A6;
+  color: #2B96A6;
+  padding-left: 2rem;
+}
+
+.specialty-selection {
+  float: left;
+}
+
+.board-item {
+  height: 15rem;
+  width: auto;
+  padding: 0 4rem;
+}
+
+.board-item:nth-child(3) {
+  background: #2B96A6;
+}
+
+.footer {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 8pt;
+  color: lightgray;
+}
+
+
+.tomohawk-list {
+
+}
+
+.tomohawk-item {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  max-width: 22%;
+  height: 17rem;
+  vertical-align: text-top;
+}
+
+.tomohawk-item:hover {
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+.tomohawk {
+  height: 10rem;
+  width: auto;
+}
+
+
+.feedback-form {
+  width: 30rem;
+  margin-left: 25%;
+}
+
+.feedback-form .text {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.feedback-form .textarea {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.feedback-form .checkboxes {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+.feedback-form .radio {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+.feedback-form .checkboxes fieldset {
+  width: 70%;
+}
+.feedback-form .radio fieldset {
+  width: 70%;
+}
+
+.feedback-form .text input {
+  width: 75%;
+}
+
+.feedback-form .textarea textarea {
+  width: 75%;
+  height: 8rem;
+}
+.submit {
+  float: right;
+}

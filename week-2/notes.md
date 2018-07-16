@@ -26,6 +26,7 @@
     - var
     - let
     - const
+  - defining vs assigning
   - prompt
   - console.log
   - .length
