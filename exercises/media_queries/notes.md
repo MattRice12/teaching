@@ -19,18 +19,18 @@ In their simplest form, media queries are wrappers for CSS that we would write e
 
 The `@media` wraps our defined style, and sets a condition that must be met in order for the defined style to execute. In this situation, the condition is that the screen-width must be larger than `480px`. This screen-width is called a breakpoint. It is standard to use `min-width` instead of `max-width` since this will cause our default CSS to be designed for our smallest breakpoints. In other words, the default styles apply to screen sizes less than the `480px` breakpoint. Styles inside this media query and for screen sizes larger than `480px` override the default CSS.
 
-## Location
-
-Since CSS stands for Cascading Style Sheets, and we want our media queries to override above styles, we will put our media queries at the bottom of the stylesheet below the default styles.
-
-
-## Breakpoints
+## Mobile-first development
 
 We build out our mobile breakpoints first through a process called `mobile-first development`. The utility of starting with mobile design is as follows:
   1. Since there is less real estate on a mobile screen, we only present the most important content. This simplifies our job when first building out the site.
   2. Faster page loading is more important on mobile devices since they are typically on slower internet connections and have slower processors. Thus, if the mobile breakpoint is set by default, the page has less loading to do.
   3. If your mobile site looks good, you get a okay looking tablet and desktop view out of the box. This minimizes the number of changes you need to make when building out the tablet and desktop views. On the other hand, if you go the route of `desktop-first development`, you will often times put in more work to get the mobile site looking good.
 
+## Location
+
+Since CSS stands for Cascading Style Sheets, and we want our media queries to override above styles, we will put our media queries at the bottom of the stylesheet below the default styles.
+
+## Breakpoints
 
 A discussion on all the breakpoints you need to consider is vast and a potential full-time job. I put a link at the bottom. For now, let's simplify. A safe bet for common breakpoints is as follows:
   1) Mobile (portrait and landscape) --> min-width: 320px, max-width: 767px;
