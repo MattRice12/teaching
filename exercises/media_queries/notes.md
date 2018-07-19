@@ -1,12 +1,11 @@
 # Introduction
 
-Long gone are the simpler days where we only had to build our webpages for computers. We now have to consider a variety of devices and screen sizes in which our webpage should be viewable.
+Long gone are the simpler days where we only had to build our webpages for desktop computers. We now have to consider a variety of devices and screen sizes in which our webpage should be viewable.
 
 
 # Media Queries
 
-One solution to this problem is with the use of media queries. Media queries allow us to write custom CSS for defined screen sizes. In other words, with media queries we can write CSS that applies only to desktop or larger displays, other CSS that applies only to tablets, and other CSS that applies to mobile devices.
-
+One solution to this problem is through the use of media queries. Media queries allow us to write custom CSS for defined screen sizes. In other words, with media queries we can write CSS that applies only to desktop or larger displays, other CSS that applies only to tablets, and other CSS that applies to mobile devices.
 
 In their simplest form, media queries are wrappers for CSS that we would write elsewhere.
 
@@ -18,7 +17,14 @@ In their simplest form, media queries are wrappers for CSS that we would write e
 }
 ```
 
-The `@media` wraps our defined style, and sets a condition that must be met in order for the defined style to execute. In this situation, the condition is that the screen-width must be larger than `480px`. This screen-width is called a breakpoint. It is standard to use `min-width` over `max-width` since the default CSS is designed for your smallest breakpoints. Thus, your default styles apply to screen sizes less than the `480px` breakpoint. New styles inside this media query and for screen sizes larger than `480px` override the default CSS.
+The `@media` wraps our defined style, and sets a condition that must be met in order for the defined style to execute. In this situation, the condition is that the screen-width must be larger than `480px`. This screen-width is called a breakpoint. It is standard to use `min-width` instead of `max-width` since this will cause our default CSS to be designed for our smallest breakpoints. In other words, the default styles apply to screen sizes less than the `480px` breakpoint. Styles inside this media query and for screen sizes larger than `480px` override the default CSS.
+
+## Location
+
+Since CSS stands for Cascading Style Sheets, and we want our media queries to override above styles, we will put our media queries at the bottom of the stylesheet below the default styles.
+
+
+## Breakpoints
 
 We build out our mobile breakpoints first through a process called `mobile-first development`. The utility of starting with mobile design is as follows:
   1. Since there is less real estate on a mobile screen, we only present the most important content. This simplifies our job when first building out the site.
@@ -31,7 +37,7 @@ A discussion on all the breakpoints you need to consider is vast and a potential
   1) Tablet (portrait and landscape) --> min-width: 768px, max-width: 1023px;
   1) Desktop                         --> min-width: 1024px;
 
-A larger example is as follows:
+## Larger Example
 
 ```
 // default style
@@ -53,7 +59,6 @@ A larger example is as follows:
   }
 }
 ```
-
 
 # Further Reading:
   - Media Queries: https://css-tricks.com/logic-in-media-queries/
