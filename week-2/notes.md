@@ -1,3 +1,6 @@
+# Exercise
+  - http://flukeout.github.io/
+
 # Install git
 
 # Install Sass
@@ -7,13 +10,18 @@
   - `sass --watch input.scss:output.css`
 
 # Learn Sass
-  - nesting
+  - https://sass-lang.com/guide
   - $variables
+  - nesting
+  - partials
+  - import
+
+# Mobile-first
+
 
 # More css
   - Priority
     - "cascading" -> Whatever comes last is what matters
-    - nesting
     - element < class < id
     - !important
     - inline-styles
@@ -21,6 +29,40 @@
   - Media Queries
 
 
+  - Selectors
+    - element (div)
+    - class   (.)
+    - id      (#)
+    - universal (\*)
+    - attribute [attr] [attr=value]
+
+  - combinator
+    - space
+    - ~
+    - +
+    - >
+      - https://github.com/TIY-Austin-Front-End-Engineering/Curriculum/blob/master/units/css-selectors/README.md
+      - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+
+  - pseudo-classes
+    - a:visited
+    - p:hover
+    - div:first-child
+    - div:last-child
+    - div:nth-child(n)
+
+  - pseudo-elements
+    - p::first-line
+    - p::before
+
+
+
+
+
+
+
+
+_________________
 # JS Intro
   - variables
     - var
