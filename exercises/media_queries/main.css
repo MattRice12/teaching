@@ -1,11 +1,13 @@
 body {
   margin: 0;
+  background: #FDF7ED;
+
 }
 
 header {
   display: inline-block;
   width: 100vw;
-  background: #47A3DA;
+  background: #6D655C;
   color: white;
   margin: 0;
   padding: 1rem;
@@ -34,7 +36,6 @@ nav ul li {
 }
 
 .container {
-  background: lightgray;
   min-height: 100vh;
   width: 100vw;
   margin: -0.3rem 0;
@@ -43,8 +44,8 @@ nav ul li {
 
 .content {
   padding: 1rem;
-  border: 1px solid gray;
-  background: white;
+  border: 1px solid #6D655C;
+  background: #D3C3AB;
 }
 
 .left-aside {
@@ -60,7 +61,7 @@ nav ul li {
 }
 
 .right-aside .feed {
-  border-bottom: 1px dotted lightgray;
+  border-bottom: 1px dotted #6D655C;
   margin: 0;
   padding: 0.5rem 1rem;
 }
