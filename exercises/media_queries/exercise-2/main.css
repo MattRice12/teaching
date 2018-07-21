@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: 'Asap', sans-serif;
 }
 
 header {
@@ -14,6 +15,10 @@ header {
   display: block;
 }
 .tablet:before {
+  display: none;
+}
+
+.header-title {
   display: none;
 }
 
@@ -117,9 +122,41 @@ header {
 }
 
 @media (min-width: 769px) {
+  header {
+    text-align: left;
+  }
+  .header-icon-and-title {
+    /* display: flex; */
+    position: relative;
+    left: 35%;
+    overflow: hidden;
+  }
+  .header-icon {
+    float: left;
+  }
+  .header-title {
+    display: block;
+    font-size: 46pt;
+    color: #E16459;
+    float: left;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+
   .main {
     margin: 3rem 5rem;
   }
+
+  .nav-list li {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    border: none;
+    border-right: 1px dotted #E16459;
+  }
+
   .main-icon-container {
     width: 33%;
     height: 30vw;
