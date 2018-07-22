@@ -1,6 +1,7 @@
 body {
   background: #73B4D2;
   font-family: 'Asap', sans-serif;
+  font-size: 13pt;
 }
 
 main {
@@ -10,7 +11,7 @@ main {
   flex-wrap: wrap;
   background: white;
   min-height: 100vh;
-  margin: 0 20%;
+  margin: 0 1%;
   border-radius: 3px;
   box-shadow: 0px 6px 20px #6293A8;
 }
@@ -42,28 +43,31 @@ main {
   color: #E16459;
 }
 
-/* Checked Instructions */
-
-.checked-example {
-  margin: 0 5rem;
-}
-
 .left-space {
   margin-left: 1rem;
 }
+
+/* Checked Instructions */
+
+.container {
+  margin: 0 1rem;
+}
+
 
 .indented-example {
   margin-left: 1rem;
   background: #ddd;
   width: fit-content;
+  min-width: 80%;
   padding: 1rem;
   border-radius: 2px;
   font-weight: 100;
+  border-left: 4px solid #73B4D2;
 }
 
 /* Checked Example */
 
-.checked-container {
+.checked-example {
   margin-top: 2rem;
   min-height: 18rem;
 }
@@ -127,4 +131,21 @@ main {
   text-decoration: underline;
   color: #E16459;
   cursor: pointer;
+}
+
+
+@media (min-width: 480px) {
+  main {
+    margin: 0 5%;
+  }
+
+  .container {
+    margin: 0 5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  main {
+    margin: 0 20%;
+  }
 }
