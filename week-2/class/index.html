@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Overflow Hidden</title>
+
+    <link rel="stylesheet" href="main.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="content">These</div>
+      <div class="content">Are</div>
+      <div class="content">Floated</div>
+      <div class="content">Elements</div>
+    </div>
+    <p>
+      This text appears at the right because the parent block does not have overflow: hidden
+    </p>
+
+    <br />
+    <br />
+    <div class="container overflow-hidden">
+      <div class="content">These</div>
+      <div class="content">Are</div>
+      <div class="content">Floated</div>
+      <div class="content">Elements</div>
+    </div>
+    <p>
+      This text falls below because the parent block DOES have overflow: hidden
+    </p>
+  </body>
+</html>

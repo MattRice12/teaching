@@ -1,0 +1,13 @@
+.container {
+  background: pink;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.content {
+  float: left;
+  padding: 1rem;
+  border: 1px solid black;
+}
