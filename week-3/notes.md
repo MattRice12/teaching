@@ -101,7 +101,6 @@
 
 # Numbers
   - NaN
-  - + - * / % **
   - += -= \*= /=
   - Math.pow()
   - Math.random()
@@ -142,16 +141,6 @@
     * strings: `''`
     * `null`
     * `undefined`
-
-
-# Mathematical Operations
-  +  -> Addition
-  -  -> Subtraction
-  *  -> Multiplication
-  /  -> Division
-  ** -> Exponent
-  %  -> Modulus operator
-  () -> Parens
 
 # For Loop
   - for (var i=0; i<elems.length; i++) {
