@@ -143,9 +143,32 @@
     * `undefined`
 
 # For Loop
-  - for (var i=0; i<elems.length; i++) {
-      return elems[i]
-    })
+  - for-loops loop a set amount of times and runs the code within the loop every time it loops
+    ```
+      for (var i=0; i<4; i++) {
+        console.log(i)
+      })
+
+      // this returns:
+      0
+      1
+      2
+      3
+    ```
+
+  - When you have an array and want to iterate through each element in the array
+  - use array.length to get the length of the array
+    ```
+      let array = ["Austin", "Matthew", "Rice"]
+      for (var i=0; i<array.length; i++) {
+        console.log(array[i])
+      })
+
+      // This returns:
+      "Austin"
+      "Matthew"
+      "Rice"
+    ```
 
 # Errors & Debugging
   - Notice when a JS error occurs, all of the JS disappears from the page. This is a big tell that your JS is fucked up.
