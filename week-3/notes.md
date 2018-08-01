@@ -17,14 +17,14 @@
   - Boolean
   - String
   - Integer
-  - null
+  - Object
   - undefined
+  - Function
 
 # Other Types
   - Float
   - Array
-  - Objects
-  - Function
+  - null
 
 # Booleans
   - !
@@ -32,14 +32,14 @@
 
 # Strings
   - +
-  - +=
+  - .concat
   - .length
   - .substr()
   - .charAt()
 
 # Numbers
   - NaN
-  - + - * / %
+  - + - * / % **
   - += -= \*= /=
   - Math.pow()
   - Math.random()
@@ -64,9 +64,12 @@
   - `&&` AND, evaluates true when BOTH operands evaluate to true
   - `||` OR, evaluates to true when EITHER operand evaluates to true
 
-# if/else if/else
+# if/ else if /else
 
 # True/False AND Truthy/Falsey
+  - Truthy values:
+    - Anything that is not falsey or false
+
   - Falsey values:
     * numbers: `0`, `NaN`
     * strings: `''`
@@ -84,7 +87,7 @@
   () -> Parens
 
 # For Loop
-  - for (let i=0; i<elems.length; i++ {
+  - for (var i=0; i<elems.length; i++) {
       return elems[i]
     })
 

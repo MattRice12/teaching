@@ -5,13 +5,15 @@
 
 // Basic
   // 1) print "Hello World"
-
+    console.log("Hello World")
   // 2) log each typeof (1) boolean, (2) integer, (3) string
-
+    console.log(typeof "hello") // ==> "string"
+    console.log(typeof true) // ==> "boolean"
 
 
 // Concat
   // 3) concat strings "Hello" and "World" with a plus sign (make sure there is a space between words)
+    "hello" + "world"
 
   // 4) concat strings "Hello" and "World" with .concat (make sure there is a space between words)
 

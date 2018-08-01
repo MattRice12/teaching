@@ -1,23 +1,16 @@
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  height: 300vh; }
+.number {
+  border: 1px solid gray;
+  padding: 1rem;
+  width: 1rem;
+}
 
 .button {
   border: 1px solid gray;
-  border-radius: 4px;
   padding: 1rem;
-  width: fit-content;
-  cursor: pointer; }
-  .button:hover {
-    background: #eee; }
-  .button:active {
-    background: #ddd;
-    user-select: none; }
+  width: 3rem;
+}
 
-.main {
-  margin: 1rem 2rem; }
-
-/*# sourceMappingURL=main.css.map */
+.spacer {
+  margin: 2rem 0;
+  border: 1px solid black;
+}
