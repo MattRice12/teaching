@@ -3,30 +3,28 @@
 
 # Install git
 
-# Install Sass
-  - `npm install -g sass`
-
-# sass watch
-  - `sass --watch input.scss:output.css`
-
-# Learn Sass
-  - https://sass-lang.com/guide
-  - $variables
-  - nesting
-  - partials
-  - import
-
-# Mobile-first
-
-
 # More css
   - Priority
     - "cascading" -> Whatever comes last is what matters
-    - element < class < id
+    - id > class > element
+    - nesting
     - !important
     - inline-styles
 
-  - Media Queries
+  - Styling tricks
+    - float & overflow: hidden
+      - floating all the elements in a block collapses the block to 0px height. So any elements coming after this block "seem" to be inline with the floated elements.
+      - declaring overflow (any value other than visible) establishes a new block formatting context, which makes the block contains its children.
+
+    - box-sizing
+      - box-sizing CSS property defines how the user agent should calculate the total width and height of an element.
+        - content-box - the width and height is applied only to the content.
+        - border-box - the width and height is applied to the content, padding, and border. This makes styling easier.
+          * { box-sizing: border-box; }
+
+    - z-index
+
+    - flex
 
 
   - Selectors
@@ -38,94 +36,37 @@
 
   - combinator
     - space
-    - ~
-    - +
-    - >
+    - ~ ---> grabs all siblings (A ~ B)
+    - + ---> grabs first sibling (A + B)
+    - > ---> grabs direct children (A > B)
       - https://github.com/TIY-Austin-Front-End-Engineering/Curriculum/blob/master/units/css-selectors/README.md
       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
   - pseudo-classes
-    - a:visited
-    - p:hover
-    - div:first-child
-    - div:last-child
-    - div:nth-child(n)
+    - :visited
+    - :hover
+    - :checked
+      - input[type="radio"]:checked
+    - :not
+      - input[type="checkbox"]:not(:checked)
+    - :first-child
+    - :last-child
+    - :nth-child(n)
 
-  - pseudo-elements
-    - p::first-line
-    - p::before
+# Install Sass
+  - `npm install -g sass`
+
+# sass watch
+  - `sass --watch input.scss:output.css`
 
 
 
+# Learn Sass
+  - https://sass-lang.com/guide
+  - $variables
+  - nesting
+  - partials
+  - import
 
-
-
-
-
-_________________
-# JS Intro
-  - variables
-    - var
-    - let
-    - const
-  - defining vs assigning
-  - prompt
-  - console.log
-  - .length
-
-# Types
-  - Boolean
-  - String
-  - Integer
-  - Float
-  - Array
-  - Objects
-  - Function
-
-# Mathematical Operations
-  +  -> Addition
-  -  -> Subtraction
-  *  -> Multiplication
-  /  -> Division
-  ** -> Exponent
-  %  -> Modulus operator
-  () -> Parens
-
-# For Loop
-  - for (let i=0; i<elems.length; i++ {
-      return elems[i]
-    })
-
-# Errors & Debugging
-  - Notice when a JS error occurs, all of the JS disappears from the page. This is a big tell that your JS is fucked up.
-  - Steps for debugging:
-    1) Look in the console for an error.
-    2) Throw your arms up in frustration
-
-# Selectors
-  - querySelector
-  - querySelectorAll
-  - getElementById
-  - getElementsByClassName
-
-# Functions
-1) Function Declaration
-  ```    
-    function isEven(num) {  
-      return num % 2 === 0;
-    }
-  ```
-
-2) Function Expression
-  ```
-    var isEvent = function(num) {
-      return num % 2 === 0;
-    }
-  ```
-
-2) Anonymous Functions
-  ```
-    function() {
-      return num % 2 === 0;
-    }
-  ```
+# Mobile-first
+  - Media Queries

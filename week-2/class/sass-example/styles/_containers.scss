@@ -1,0 +1,15 @@
+.container {
+  margin-top: 1rem;
+}
+
+.container {
+  &.full-screen {
+    width: 100%;
+  }
+  &.half-screen {
+    width: 50%;
+  }
+  &.quarter-screen {
+    width: 25%;
+  }
+}

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  height: 300vh; }
+
+.button {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 1rem;
+  width: fit-content;
+  cursor: pointer; }
+  .button:hover {
+    background: #eee; }
+  .button:active {
+    background: #ddd;
+    user-select: none; }
+
+.main {
+  margin: 1rem 2rem; }
+
+/*# sourceMappingURL=main.css.map */

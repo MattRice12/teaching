@@ -1,0 +1,193 @@
+body {
+  height: 300vh;
+  margin: 0;
+}
+
+#mattsName {
+  color: green;
+}
+
+.priority .priority-test {
+  color: red;
+}
+
+.priority-test {
+  color: teal !important;
+}
+
+/*                 */
+
+.container {
+  background: pink;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.content {
+  float: left;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.box-sizing {
+  box-sizing: border-box;
+}
+
+.with-border {
+  padding: 1rem;
+  border: 1px solid black;
+  height: 3rem;
+}
+
+.without-border {
+  padding: 1rem;
+  border: 1px solid black;
+  height: 3rem;
+}
+
+nav {
+  background: black;
+  position: fixed;
+  z-index: 5;
+}
+
+.nav-container {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-explanation {
+  color: white;
+  margin-left: 3rem;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  list-style-type: none;
+  background: black;
+  height: 3rem;
+  margin: 0;
+  flex: 0 0 30%;
+}
+
+.nav-ul li {
+  color: white;
+}
+
+.z {
+  height: 2rem;
+}
+
+.big-z-index {
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  color: black;
+  border: 1px solid black;
+  background: white;
+}
+
+
+.spacer {
+  margin: 5rem 0;
+  border: 1px solid black;
+}
+
+.form-elements {
+  margin: 2rem 1rem;
+}
+
+/* Flex */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 9rem;
+  justify-content: space-between;
+  background: yellow;
+  align-items: center;
+}
+
+
+.flex-item {
+  background: pink;
+  margin: 0.2rem;
+  max-height: 4rem;
+  height: 2rem;
+  flex: 0 0 20%;
+  display: flex;
+}
+
+.flex-item:nth-child(2) {
+  height: 1rem;
+}
+
+.a ~ .b {
+  background: green;
+}
+
+/* End Flex */
+
+
+input {
+  background: pink;
+  border: 1px solid black;
+}
+
+input[type="checkbox"] {
+}
+
+.flex-container div {
+  border: 1px solid green;
+}
+
+.flex-container > div {
+  border: 10px solid black;
+}
+
+
+.checked-content {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .checked-content {
+  display: block;
+}
+
+
+.flex-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-item-2 {
+  background: white;
+  padding: 2rem;
+  width: 3rem;
+}
+
+.flex-item-2:first-child {
+  /* background: yellow; */
+}
+
+.flex-item-2:last-child {
+  /* background: orange; */
+}
+
+.flex-item-2:nth-child(2n) {
+    background: beige;
+}
+.flex-item-2:nth-child(2n) {
+    background: yellow;
+}

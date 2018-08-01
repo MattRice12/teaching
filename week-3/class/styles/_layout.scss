@@ -1,0 +1,14 @@
+.button {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 1rem;
+  width: fit-content;
+  cursor: pointer;
+  &:hover {
+    background: #eee;
+  }
+  &:active {
+    background: #ddd;
+    user-select: none;
+  }
+}

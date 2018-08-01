@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.shopping-list {
+  padding: 1rem;
+  background: #5BB470;
+  border: 1px solid black; }
+
+.container {
+  margin-top: 1rem; }
+
+.container.full-screen {
+  width: 100%; }
+.container.half-screen {
+  width: 50%; }
+.container.quarter-screen {
+  width: 25%; }
+
+.container {
+  background: #E98DD5; }
+  .container .content {
+    margin-left: 1rem;
+    background: #5BB470; }
+    .container .content .sub-content {
+      margin-left: 1rem; }
+
+nav {
+  background: black;
+  position: fixed;
+  z-index: 9999; }
+
+.nav-container {
+  width: 100vw;
+  height: 5rem; }
+
+.nav-ul {
+  display: block;
+  height: 5rem;
+  width: 20rem;
+  list-style-type: none;
+  background: black;
+  height: 3rem;
+  margin: 0; }
+
+.nav-ul li {
+  color: white; }
+
+@media (min-width: 480px) {
+  .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
+
+/*# sourceMappingURL=main.css.map */
