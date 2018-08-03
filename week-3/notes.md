@@ -13,7 +13,7 @@
     - `const`
       - const is new javascript syntax and stands for constant.
       - Constants are not supposed to be redeclare or reassigned. They are set once and never changed.
-      - JavaScript will throw an error if you try to redclare it or reassign it.
+      - JavaScript will throw an error if you try to re-declare it or reassign it.
       - You must declare and assign a constant at the same time (e.g., `const a = 1`).
       - Constants are used when assigning functions to a variable `const sum = function(a, b) {...}`
       - Constants are used when you have numbers or strings which you know won't change throughout the program.
