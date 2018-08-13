@@ -1,0 +1,24 @@
+@import '../../utils/styles/variables';
+@import '../../utils/styles/reset';
+@import '../../utils/styles/applications';
+@import '../../utils/styles/grid';
+
+.if-else-example {
+  margin-bottom: 2rem;
+}
+
+.answer {
+  margin-top: 2rem;
+}
+
+.show-answer {
+  display: none;
+}
+
+.show-answer:not(:checked) ~ .answer {
+  display: none;
+}
+
+.show-answer:checked ~ .answer {
+  display: block;
+}
